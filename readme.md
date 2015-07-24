@@ -1,6 +1,6 @@
 # rsync-backup-script
 
-This bash script will help you to backup your data on \*nix sytems (like MacOS X, Linux, BSD, Solaris, ,...) with the help of the rsync tool.
+This bash script will help you to backup your data on \*nix sytems (like MacOS X, Linux, BSD, Solaris, ...) with the help of the rsync tool.
 
 The script is highly configurable and can be extended in many ways.
 
@@ -20,7 +20,7 @@ see:
 
 Drop the script to a folder in your path e.g. `/usr/local/sbin` or `/usr/local/bin` or `/usr/sbin` or `/usr/bin`
 
-You can find out which directories are in your path by entering `echo $PATH` on the command line interface (CLI)
+You can find out which directories are in your path by entering `echo $PATH` on the command line interface (CLI).
 
 
 ### Prerequisites

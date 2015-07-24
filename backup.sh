@@ -37,6 +37,7 @@ cd /home/user
 # -P = show progress during transfer
 # -o = preserve owner (super-user only)
 # -g = preserve group
+# --delete = delete files on backup drive which have been deleted on the origin drive (mirror function)
 
 # first, we save everything from laptop SSD to external drive
 rsync -avlPog --delete --exclude-from $PATH_HOME_EXCLUDES /home/user/ $BACKUP_PATH/home_user/

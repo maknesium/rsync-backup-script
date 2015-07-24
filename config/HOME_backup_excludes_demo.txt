@@ -1,0 +1,4 @@
+Downloads
+tmp
+VirtualBox VMs
+.cache

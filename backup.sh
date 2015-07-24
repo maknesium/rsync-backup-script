@@ -4,9 +4,9 @@
 # specify the path TO WHERE the files should be backuped
 BACKUP_PATH='/media/truecrypt3';
 
-PATH_HOME_EXCLUDES='Dev/backup_configs/HOME_backup_excludes_demo.txt'
-PATH_PRIVATE_DOCS_EXCLUDES='Dev/backup_configs/PRV_backup_excludes.txt'
-
+# text files with exclude entries to show which data should not be backuped (like tmp data or the download folder)
+PATH_HOME_EXCLUDES='config/HOME_backup_excludes_demo.txt'
+PATH_PRIVATE_DOCS_EXCLUDES='config/PRV_backup_excludes.txt'
 ###########################################
 
 # checking if path exists, otherwise exit
